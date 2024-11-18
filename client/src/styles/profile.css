@@ -1,0 +1,172 @@
+.profile-favorites-reviews-container {
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-user-info {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 0.5px solid #dcdcdc;
+    padding: 15px;
+    justify-content: space-evenly;
+  }
+  
+  .favorites-container {
+    width: 100%;
+    max-width: 1050px;
+    border: 0.5px solid #dcdcdc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .favorites-header {
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: 0.5px solid #dcdcdc;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: #007bff;
+    width: 100%;
+  }
+  
+  .favorites-items {
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .favorite-image {
+    width: auto;
+    height: 500px;
+    transition: transform 0.3 ease;
+  }
+  
+  .favorite-image:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+  
+  .favorites-button-container {
+    padding: 15px 15px;
+    border-top: 0.5px solid #dcdcdc;
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .favorites-button {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .favorites-button:hover {
+    background-color: white;
+    color: #007bff;
+  }
+  
+  .profile-reviews-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 15px;
+  }
+  
+  .profile-reviews-title-container {
+    background-color: #007bff;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-reviews-title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .profile-reviews-container {
+    width: 100%;
+    max-width: 1050px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .profile-review-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-review-edit-button {
+    background-color: #007bff;
+    color: white;
+    margin-right: 10px;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .profile-review-edit-button:hover {
+    background-color: white;
+    color: #007bff;
+  }
+  
+  .profile-review-delete-button {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .profile-review-delete-button:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  .profile-reviews-no-review-message {
+    text-align: center;
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-user-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

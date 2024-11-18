@@ -1,0 +1,99 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.results-container {
+  padding: 20px;
+  padding-top: 10px;
+  background-color: #f9f9f9;
+}
+
+.results-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #007bff;
+  text-align: center;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-item {
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.movie-poster {
+  width: 150px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.movie-info {
+  flex-grow: 1;
+}
+
+.movie-title {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.movie-director {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.movie-overview {
+  font-size: 14px;
+  color: #555555;
+}
+
+.movie-info-button {
+  background-color: #ffffff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  margin-top: 25px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.movie-info-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.favorite-remove-button {
+  background-color: red;
+  color: #ffffff;
+  border: 1px solid red;
+  margin-top: 25px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3 ease, color 0.3 ease;
+}
+
+.favorite-remove-button:hover {
+  background-color: #ffffff;
+  color: red;
+}

@@ -1,0 +1,26 @@
+.debug-container {
+    max-width: 1050px;
+    border: 0.5px solid #dcdcdc;
+    margin-top: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .debug-title {
+    text-align: center;
+    color: white;
+    margin: 0;
+  }
+  
+  .debug-title-container {
+    background-color: #007bff;
+    padding: 15px;
+  }
+  
+  .debug-token {
+    padding: 15px;
+    word-wrap: break-word;
+  }
+  
